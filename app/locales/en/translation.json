@@ -1,0 +1,18 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "blog": "Blog",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "Build Amazing Apps with React & Next.js",
+        "description": "Start building modern, responsive, and multilingual apps with ease.",
+        "getStarted": "Get Started",
+        "readMore": "Read More"
+    },
+    "blog": {
+        "title": "Latest Blog Posts",
+        "readMore": "Read More"
+    }
+}
