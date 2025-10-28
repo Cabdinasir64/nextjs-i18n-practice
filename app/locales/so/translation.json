@@ -1,0 +1,18 @@
+{
+  "nav": {
+    "home": "Bogga Hore",
+    "about": "Nagu Saabsan",
+    "blog": "Blog",
+    "contact": "Nagala Soo Xiriir"
+  },
+  "hero": {
+    "title": "Dhiso Apps Cajiib ah adoo isticmaalaya React & Next.js",
+    "description": "Bilow inaad dhisto apps casri ah, responsive, oo luuqado badan taageera si fudud.",
+    "getStarted": "Bilow Hadda",
+    "readMore": "Akhri Wax dheeraad ah"
+  },
+  "blog": {
+    "title": "Boosta ugu dambeeyay",
+    "readMore": "Akhri Wax dheeraad ah"
+  }
+}
