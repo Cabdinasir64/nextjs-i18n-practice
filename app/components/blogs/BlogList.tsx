@@ -35,12 +35,11 @@ export default function BlogList() {
     return (
         <section className="max-w-6xl mx-auto px-6 py-16">
             <h2
-                className={`text-3xl md:text-4xl font-bold mb-10 text-center md:text-left ${dir === "rtl" ? "text-right" : "text-left"
+                className={`text-3xl md:text-4xl font-bold mb-10 text-center ${dir === "rtl" ? "md:text-right text-right" : "md:text-left text-left"
                     }`}
             >
                 {t("blog.title")}
             </h2>
-
             <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {posts.map((post, i) => (
                     <motion.div
@@ -51,7 +50,7 @@ export default function BlogList() {
                         className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition"
                     >
                         <div
-                            className={`flex flex-col ${dir === "rtl" ? "md:flex-col-reverse" : "md:flex-col"
+                            className={`flex flex-col ${dir === "rtl" ? "md:flex-col-s" : "md:flex-col"
                                 }`}
                         >
                             <div className="relative w-full h-60">
